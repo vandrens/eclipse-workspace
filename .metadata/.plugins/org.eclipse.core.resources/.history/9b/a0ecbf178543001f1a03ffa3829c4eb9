@@ -1,0 +1,25 @@
+package curso_udemy_aula1;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class scanner {
+	public static void main(String[] args) {
+
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Digite o primeiro valor: ");
+	
+	double x;
+	
+	x=sc.nextDouble();
+	Locale.setDefault(Locale.GERMAN);
+
+	System.out.printf("voce digitou: %s", x);
+	
+
+	
+	
+	sc.close();
+	
+
+}}

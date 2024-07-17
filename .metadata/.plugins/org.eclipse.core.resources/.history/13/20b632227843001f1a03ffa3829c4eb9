@@ -1,0 +1,15 @@
+package curso_udemy_aula1;
+
+public class aula2 {
+
+	public static void main(String[] args) {
+		float b, B, h, area;
+		b=6;
+		B=8;
+		h=5;
+		area = (b+B)/2*h;
+		System.out.println(area);
+
+	}
+
+}

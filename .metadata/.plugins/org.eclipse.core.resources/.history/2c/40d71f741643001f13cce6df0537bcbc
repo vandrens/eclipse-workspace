@@ -1,0 +1,24 @@
+package curso_udemy_aula1;
+
+import java.util.Locale;
+
+public class Main {
+
+	public static void main(String[] args) {
+		double x=2.1415;
+		System.out.print("Hello world!");
+		System.out.printf("%.3f%n",x);
+		System.out.print("Hello world!");
+		Locale.setDefault(Locale.GERMANY);
+		System.out.printf("%.3f%n",x);
+		String nome = "Maria";
+		int idade = 31;
+		double salario = 4000.00;
+		System.out.printf("%s tem %d anos, e ela ganha %.2f reais %n",nome, idade, salario);
+
+		
+
+		
+	}
+
+}

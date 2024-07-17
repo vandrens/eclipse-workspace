@@ -1,0 +1,19 @@
+package curso_udemy_aula1;
+
+public class math {
+
+	public static void main(String[] args) {
+		double x = 3.0;
+		double y = 4.0;
+		double z = -5;
+		double a,b,c;
+		
+		a= Math.sqrt(y);
+		b=Math.pow(x, 2);
+		c=Math.abs(z);
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+	}
+
+}

@@ -1,0 +1,11 @@
+package curso_udemy_aula1;
+
+public class aula2 {
+
+	public static void main(String[] args) {
+		int x = 5;
+		int y = 2;
+		System.out.println(x);
+	}
+
+}
