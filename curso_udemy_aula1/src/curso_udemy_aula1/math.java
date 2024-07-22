@@ -26,8 +26,10 @@ public class math {
 		x1=(-(b+ Math.sqrt(y))/(2*a));
 		x2=(-(b- Math.sqrt(y))/(2*a));
 		
-		System.out.println("Bhascara x1 = " + x1 );
-		System.out.println("Bhascara x2 = " + x2 );
+		System.out.println("Bhaskara x1 = " + x1 );
+		System.out.println("Bhaskara x2 = " + x2 );
+		
+		//basic Bhaskara formula
 
 		
 		
